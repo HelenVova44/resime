@@ -4,94 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Это сайт - резюме Елена Черемнова">
-    <meta name="description" content="Елена, cv, resume">
+    <meta name="keywords" content="Елена, cv, resume">
+    <meta name="description" content="Это сайт - резюме Елена Черемнова">
+<link rel="stylesheet" href="styles.css">
     <title>Елена Resume</title>
 </head>
 <body>
+  
+  <div class="info">
+      <img src="avatar . jpeg" alt="Елена Черемнова" class="avatar">
+  
+      <class="info-text">
+          <h1>Елена Черемнова</h1>
 
-    <img src="Аватар.jpg" alt="Черемнова Елена">
-  <h1>Елена Черемнова</h1>
+      <p>Я ученица одноимённого<strong> Youtybe канала</strong> и онлайн школы по программированию<strong> Result School</strong></p>
+  </div>
+      <p>
+        Я люблю <em>собирать алмазную мазайку, заниматься спортом и учиться программировать</em>
+      </p>
 
- <p>Я ученица одноимённого<strong> Youtybe канала</strong> и онлайн школы по 
-  программированию<strong> Result School</strong></p>
- <p>Я люблю <em>собирать алмазную мазайку, заниматься спортом и учиться программировать</em></p>
+      <h4>Список социальных сетей:</h4>
+      <a href="https://t.me/HelenVova44" target="_blank">Telegram</a>
+    
 
-<h4>Список социальных сетей:</h4>
+      <div class="card bg-green">
+      <h2>Мои хобби</h2>
 
-<a href="https://t.me/Helenfree" target="_blank">Telegram</a>
+      <ol class="list">
+        <li>Учиться</li>
+        <li>Пешая ходьба</li>
+        <li>Алмазная мозайка</li>
+      </ol>
+    </div>
+    
+    <div class="card bg-red"></div>
+      <h2>Опыт работы</h2>
 
-</body>
-</html>
+      <table class="table">
+      <!-- <thead>
+      <tr>
+        <th>Название</th>
+        <th>Должность</th>
+        <th>год</th>
+      </tr>  
+    </thead>  -->
+    <tbody>
+      <tr>
+        <td>Магазин</td>
+        <td>Продавец</td>
+        <td>2018-2019</td>
+      </tr> 
+      <tr>
+        <td>Школа</td>
+        <td>Вахтер</td>
+        <td>2020-2022</td>
+      </tr>
+      <tr>
+        <td>Завод</td>
+        <td>Мастер-чистоты</td>
+        <td>2022-2022</td>
+      </tr>
+      <tr>
+        <td>Магазин автомасла</td>
+        <td>Мастер-чистоты</td>
+        <td>2022-сейчас</td>
+      </tr>
+      <tr>
+        <td>Result School</td>
+        <td>ученица</td>
+        <td>2023-сейчас</td>
+      </tr>
+    </tbody>  
+    </table>
+      </div>
 
-<h2>Мои хобби</h2>
+      <div class="card bg-yellow">
+      </div> 
 
-<ol>
-    <li>учиться</li>
-    <li>Пешая ходьба</li>
-    <li>Алмазная мозайка</li>
-</ol>
+        <form action="/" class="form">
+          <h2>Связаться со мной</h2>
 
-<h2>Опыт работы</h2>
+        <div class="form-row">
+        </div>
 
-<table>
- <thead>
-  <tr>
-    <th>Название</th>
-    <th>Должность</th>
-    <th>год</th>
-  </tr>  
- </thead> 
- <tbody>
-   <tr>
-    <td>Магазин</td>
-    <td>Продавец</td>
-    <td>2018-2019</td>
-   </tr> 
-   <tr>
-    <td>Школа</td>
-    <td>Вахтер</td>
-    <td>2020-2022</td>
-   </tr>
-   <tr>
-    <td>Завод</td>
-    <td>Мастер-чистоты</td>
-    <td>2022-2022</td>
-   </tr>
-   <tr>
-    <td>Магазин автомасла</td>
-    <td>Мастер-чистоты</td>
-    <td>2022-сейчас</td>
-   </tr>
-   <tr>
-    <td>Result School</td>
-    <td>ученица</td>
-    <td>2023-сейчас</td>
-   </tr>
- </tbody>  
-</table>
-<h2>Связаться со мной</h2>
+        <div class="form-group">
+          <label for="name">Ваше имя:</label>
+          <input type="text" id="name" placeholder="Введите имя">
+        </div>
 
-<form action="/">
-<div>
-  <label for="name">Ваше имя:</label>
-  <input type="text" id="name" placeholder="Введите имя">
-</div>
+        <div class="form-group">
+          <label for="email">Ваш email:</label>
+          <input type="email" id="email" placeholder="Введите email">
+        </div>
 
-<div>
-  <label for="email">Ваш email:</label>
-  <input type="email" id="email" placeholder="Введите email">
-</div>
+        <div class="form-group">
+          <label for="message">Ваше сообщение:</label>
+          <textarea id="message" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
+        </div>
 
-<div>
-  <label for="message">Ваше сообщение:</label>
-  <br>
-  <textarea id="" cols="20" rows="5" placeholder="Введите сообщение..."></textarea>
-</div>
+      <input class="btn" type="submit" value="Отправить!">
+    </form>
 
-<input type="submit" value="Отправить!">
-</form>
-
-
-</body>
-</html> 
+    </div>
+  </body>
+  </html> 
